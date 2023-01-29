@@ -133,6 +133,7 @@
     flex-direction: column;
     align-items:flex-start;
     justify-content: center;
+    padding: 3rem;
 }
 .flex-columns .column img{
     width: 100%;
@@ -140,3 +141,28 @@
 }
 
 /* flex grid */
+.flex-grid .row{
+ display: flex;
+ flex-wrap: wrap;
+ padding:0 .4rem ;
+}
+.flex-grid .column{
+    flex: 25%;
+    padding: 0 .4rem;
+}
+/* section  */
+.section-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+}
+.section-header h2{
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+.section-padding{
+    padding: 2rem 2rem 4rem;
+}

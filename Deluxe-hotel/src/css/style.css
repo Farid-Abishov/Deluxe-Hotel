@@ -135,6 +135,72 @@ font-size: 3rem;
 .about p{
     margin: 2rem 0rem;
 }
-.about .column-2{
-    padding-left: 15px;
+
+/* gallery  */
+.gallery img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* cards */
+.card{
+    color:#fff;
+    font-weight: 700;
+}
+.card img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.card-body{
+    padding: 2rem;
+}
+/* teams */
+.teams img{
+    border-radius: 50%;
+}
+.teams img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+/* contact */
+.contact-form{
+    width: 100%;
+}
+.contact-form label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.contact-form .form-control{
+    margin-bottom: 1.5rem;
+}
+.contact-form input{
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    border: 1px solid #f5f5f5;
+}
+.contact-form .btn{
+    width: 100%;
+    padding: 15px 0px;
+    margin-top: 10px;
+}
+.contact h2{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.footer a{
+    color: var(--info);
+    margin-right: 10px;
+}
+.footer a:hover{
+    opacity: 0.8;
 }

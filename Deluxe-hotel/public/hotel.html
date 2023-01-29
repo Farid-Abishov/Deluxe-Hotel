@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Deluxe Hotel</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../src/css/style.css">
     <link rel="stylesheet" href="..//src/css/utils.css">
@@ -21,6 +21,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Rooms">Rooms</a></li>
+                <li><a href="#Blog">Blog</a></li>
                 <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
@@ -71,7 +72,7 @@
       </div>
         </section>
         <!-- about -->
-        <section class=" about flex-columns">
+        <section id="about" class=" about flex-columns">
           <div class="row">
             <div class="column">
                <div class="column-1">
@@ -90,6 +91,32 @@
           </div>
         </section>
 
+        <!-- gallery -->
+         <section id="gallery" class="gallery flex-grid section-padding">
+            <header class="section-header">
+               <h2>Lorem, ipsum.</h2>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa.</p>
+            </header>
+            <div class="row">
+                <div class="column">
+                    <img src="../src/img/1.jpeg" alt="">
+                    <img src="../src/img/2.jpeg" alt="">
+                </div>
+                <div class="column">
+                    <img src="../src/img/3.jpeg" alt="">
+                    <img src="../src/img/4.jpeg" alt="">
+                </div>
+                <div class="column">
+                    <img src="../src/img/1.jpeg" alt="">
+                    <img src="../src/img/2.jpeg" alt="">
+                </div>
+                <div class="column">
+                    <img src="../src/img/3.jpeg" alt="">
+                    <img src="../src/img/4.jpeg" alt="">
+                </div>
+            </div>
+         </section>
+        <!-- about  -->
         <section class=" about flex-columns">
             <div class="row">
                 <div class="column">
@@ -109,7 +136,102 @@
               
             </div>
         </section>
-        
+        <!-- rooms  -->
+        <section id="rooms" class="rooms section-padding">
+           <header class="section-header">
+             <h2>Lorem, ipsum.</h2>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+           </header>
+           <div class="flex-items">
+               <div class="card">
+                <img src="../src/img/room1.jpeg" alt="">
+                <div class="card-body bg-secondary">
+                  <h2>Deluxe Room</h2>
+                  <p>Lorem, ipsum.</p>
+                </div>
+               </div>
+               <div class="card">
+                <img src="../src/img/room2.jpeg" alt="">
+                <div class="card-body bg-secondary">
+                  <h2>Superior Room</h2>
+                  <p>Lorem, ipsum.</p>
+                </div>
+               </div>
+               <div class="card">
+                <img src="../src/img/room3.jpeg" alt="">
+                <div class="card-body bg-secondary">
+                  <h2>Standart Room</h2>
+                  <p>Lorem, ipsum.</p>
+                </div>
+               </div>
+           </div>
+        </section>
+        <!-- teams -->
+        <section id="teams" class="teams section-padding  bg-light">
+            <header class="section-header ">
+                <h2>Lorem, ipsum.</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              </header>
+              <div class="flex-items">
+                <div>
+                    <img src="../src/img/p1.jpeg" alt="">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Manager</p>
+                </div>
+                <div>
+                    <img src="../src/img/p2.jpeg" alt="">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Manager</p>
+                </div>
+                <div>
+                    <img src="../src/img/p3.jpeg" alt="">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Manager</p>
+                </div>
+              </div>
+        </section>
+        <!-- contact -->
+        <section id="contact" class="contact flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="../src/img/contact.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-light ">
+                        <h2>Contact Us</h2>
+                        <form action="" class="contact-form">
+                            <div class="form-control">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-control">
+                                <label for="name">Email</label>
+                                <input type="email" id="name" placeholder="Enter your Email">
+                            </div>
+                            <div class="form-control">
+                                <label for="name">Phone</label>
+                                <input type="tel" id="name" placeholder="Enter your phone">
+                            </div>
+                             <button type="submit" class="btn btn-primary">
+                               Submit
+                             </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer class="footer bg-light">
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <p>Copyright & copy 2022-Hotel site</p>
+    </footer>
 </body>
 </html>
