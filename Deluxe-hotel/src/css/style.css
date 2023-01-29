@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+html{
+    font-size: 10px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1,h2{
+    line-height: 1.2;
+    font-weight: 300;
+}
+p{
+    margin: 1rem 0;
+
+}
+img{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--dark);
+    opacity: 0.8;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    padding: 0% 3rem;
+}
+.navbar  a{
+    color: #fff;
+    padding: 1rem 2rem;
+    margin: 0 .5rem;
+}
+.navbar a:hover{
+   border-bottom: 1px solid var(--warning);
+}
+.navbar ul{
+    display: flex;
+}
+.navbar .logo{
+    font-weight: 400;
+}
+.navbar h1{
+font-size: 3rem;
+}
+.navbar span{
+    color: var(--warning);
+}
+/* header */
+.main-header{
+    background-image: url(../img/bg-1.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+.main-header .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    
+}
+.main-header::after{
+    content: '';
+    background:rgba(0,0,0,0.6) ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.main-header *{
+    z-index: 5;
+}
+.main-header .content h1{
+    font-size: 5.5rem;
+}
+.main-header .content p{
+    max-width: 60rem;
+    font-size: 2.3rem;
+    margin: 2rem 0 3rem;
+
+}
+/* icons */
+.icons{
+    padding: 3rem;
+}
+.icons h3{
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+.icons i{
+    background-color: var(--primary);
+    color: #fff;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 50%;
+}
+/* about */
+.about{
+    color:#fff;
+}
+.about h2{
+    font-size:4rem ;
+    font-weight: 400;
+}
+.about p{
+    margin: 2rem 0rem;
+}
+.about .column-2{
+    padding-left: 15px;
+}
