@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 html{
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 *{
     box-sizing: border-box;
@@ -78,6 +79,10 @@ font-size: 3rem;
     background-size: cover;
     color: #fff;
     position: relative;
+}
+.main-header.blog{
+    background-image: url(../img/bg-2.jpeg);
+    height: 60vh;
 }
 .main-header .content{
     display: flex;
@@ -189,6 +194,14 @@ font-size: 3rem;
     font-size: 4rem;
     margin-bottom: 10px;
 }
+/* articles */
+.articles{
+    padding: 3rem 5rem;
+}
+.article{
+    margin-top: 1.5rem;
+    color: #fff;
+}
 /* footer */
 .footer{
     display: flex;
@@ -203,4 +216,22 @@ font-size: 3rem;
 }
 .footer a:hover{
     opacity: 0.8;
+}
+/* mobile */
+@media (max-width:768px) {
+    html{
+        font-size: 8px;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+    .navbar a{
+        padding: 10px;
+        margin: 0 3px;
+    }
+    .teams img{
+        width: 70%;
+    }
 }
